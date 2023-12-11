@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Прибывалка</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav id="sidebar">
+                <div id="dismiss">
+                    <svg class="svg-inline--fa fa-arrow-left fa-w-14" style="height: 14px; width: 16px" aria-hidden="true" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
+                </div>
+
+                <div class="sidebar-header">
+                    <h3>Транспорт Самара</h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <h2>Избранные остановки</h2>
+                </ul>
+
+            </nav>
+
+            <div id="content">
+                <button type="button" id="sidebarCollapse" class="btn btn-info btn-position-static">
+                    <i class="fas fa-align-left"></i>
+                    <span>Избранное</span>
+                </button>
+                <div id="map"></div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
